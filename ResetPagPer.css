@@ -1,0 +1,68 @@
+/* Reset CSS */
+
+/* Eliminar márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurar el estilo básico de los elementos */
+html {
+    line-height: 1.15; /* Mejora la legibilidad */
+    -webkit-text-size-adjust: 100%; /* Evita el ajuste de tamaño en dispositivos móviles */
+}
+
+body {
+    font-family: sans-serif; /* Fuente básica */
+    font-size: 16px; /* Tamaño de fuente básico */
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit; /* Hereda tamaño de fuente */
+    font-weight: normal; /* Elimina el peso adicional */
+}
+
+/* Listas */
+ul, ol {
+    list-style: none; /* Elimina viñetas */
+}
+
+/* Tablas */
+table {
+    border-collapse: collapse; /* Elimina espacios entre celdas */
+    width: 100%; /* Hace que las tablas ocupen todo el ancho disponible */
+}
+
+img {
+    max-width: 100%; /* Hace que las imágenes sean responsivas */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+/* Alineación de texto */
+p {
+    margin-bottom: 1em; /* Espacio entre párrafos */
+}
+
+/* Formulario */
+input, textarea, select, button {
+    font-family: inherit; /* Hereda fuente del body */
+    font-size: inherit; /* Hereda tamaño de fuente */
+}
+
+/* Evitar el comportamiento de enlace subrayado */
+a {
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    color: inherit; /* Hereda color */
+}
+
+/* Asegúrate de que los elementos sean accesibles */
+button {
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Sección y artículo */
+section, article {
+    display: block; /* Asegura que estos elementos se muestren como bloques */
+}
